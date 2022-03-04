@@ -62,7 +62,7 @@ nav ul li a:hover{
 }
 
 
-
+/* JUMBOTRON */
 .jumbotron{
   color: white;
   background-image: url(img/banner.jpg);
@@ -71,7 +71,6 @@ nav ul li a:hover{
   border-radius: 10px;
   overflow: hidden;
   height: 500px;
-  background-color: rgb(225, 214, 122);
   margin-top: 20px;
 }
 
@@ -79,12 +78,12 @@ nav ul li a:hover{
   padding-top: 25%;
   padding-left: 40px;
 }
-.overlay h3{
+.text h3{
   width: 50%;
   font-size: 1.5rem;
 }
 
-.overlay p{
+.text p{
   width: 50%;
 }
 
@@ -99,25 +98,36 @@ nav ul li a:hover{
 }
 
 .title{
-  height: 10%;
-  background-color: rgb(171, 207, 231);
   margin-bottom: 13px;
+}
+.title strong{
+  font-size: 35px;
+}
+
+.title p{
+  color: rgb(144, 144, 144);
 }
 
 /* COLUMNS */
 
 .col{
   float: left;
-  height: 83%;
-  background-color: rgb(171, 207, 231);
+  /* height: 83%; */
   width: 16%;
-
-
 }
 
 .sx{
   margin-right: 1%;
 }
+
+
+ .img-sx{
+  width:164px;
+  height: 164px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+} 
 
 .center{
   float: left;
