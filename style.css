@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 100%;
+}
+
+/* MAIN-WRAPPER */
+
+.wrapper{
+  width: 80%;
+  margin: auto;
+}
+
+
+/* HEADER */
+
+.navbar{
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.logo{
+  display: inline-block;
+  padding-right: 10px;
+  height: 70%;
+  border-right: 1px solid rgb(144, 144, 144);
+  margin-bottom: 30px;
+}
+
+.img{
+  height: 100%;
+}
+
+/* MENU */
+
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  color:rgb(144, 144, 144) ;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+  color:brown;
+}
+
+
+
+.jumbotron{
+  color: white;
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 500px;
+  background-color: rgb(225, 214, 122);
+  margin-top: 20px;
+}
+
+.jumbotron .text{
+  padding-top: 25%;
+  padding-left: 40px;
+}
+.overlay h3{
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.overlay p{
+  width: 50%;
+}
+
+/* MAIN */
+
+/* Background */
+
+.container{
+  height: 400px;
+  background-color: rgb(3, 136, 253);
+  margin-top: 20px;
+}
+
+.title{
+  height: 10%;
+  background-color: rgb(171, 207, 231);
+  margin-bottom: 13px;
+}
+
+/* COLUMNS */
+
+.col{
+  float: left;
+  height: 83%;
+  background-color: rgb(171, 207, 231);
+  width: 16%;
+
+
+}
+
+.sx{
+  margin-right: 1%;
+}
+
+.center{
+  float: left;
+  height: 83%;
+  width: 66%;
+  background-color: rgb(171, 207, 231);
+}
+
+.dx{
+  margin-left: 1%;
+}
+
+/* FOOTER */
+
+footer{
+margin-top: 5px;
+margin-bottom: 20px;
+height: 60px;
+background-color: rgb(136, 1, 254);
+}
