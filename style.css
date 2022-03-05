@@ -93,8 +93,6 @@ nav ul li a:hover{
 
 /* MAIN */
 
-/* Background */
-
 .container{
   margin-top: 20px;
   margin-bottom: 40px;
@@ -113,7 +111,6 @@ nav ul li a:hover{
 }
 
 /* COLUMNS */
-
 .col{
   float: left;
   width: 16%;
@@ -126,12 +123,12 @@ nav ul li a:hover{
 }
 
 .coltext p{
-
   color: rgb(144, 144, 144);
 }
+
 /* COL SX */
 .img-sx{
-  background-image: url(/img/img-1.jpg);
+  background-image: url(../img/img-1.jpg);
   height: 164px;
   background-size: cover;
   background-position: center;
@@ -139,36 +136,42 @@ nav ul li a:hover{
   margin-right: 1%;
   overflow: hidden;
 }
-
 /* /COL SX */
 
 
 /*  CENTER COLUMN */
 .center{
   padding-left: 20px;
+  padding-right: 20px;
   float: left;
   height: 83%;
   width: 66%;
 }
 
 .img-center{
-  background-image: url(/img/banner-2.jpg);
+  background-image: url(../img/banner-2.jpg);
   height: 164px;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-  margin-right: 1%;
   overflow: hidden;
 }
 /* / CENTER COLUMN */
 
-/* COLUMN DX */
-.dx{
-  margin-left: 1%;
-}
-
 .img-dx{
-  background-image: url(/img/img-3.jpg);
+  background-image: url(../img/img-3.jpg);
+  height: 164px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-right: 1%;
+  overflow: hidden;
+}
+/*/ COLUMN DX */
+
+/* HOVERS */
+.img-dx:hover{
+  background-image: url(../img/img-6.jpg);
   height: 164px;
   background-size: cover;
   background-position: center;
@@ -177,7 +180,18 @@ nav ul li a:hover{
   overflow: hidden;
 }
 
+.img-sx:hover{
+  background-image: url(../img/img-4.jpg);
+  height: 164px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-right: 1%;
+  overflow: hidden;
+}
 /* /COLUMN DX */
+/* /COLUMNS */
+
 /* FOOTER */
 
 footer{
@@ -186,7 +200,7 @@ margin-bottom: 20px;
 height: 60px;
 }
 
-.footer{
+.footertext{
   line-height: 60px;
   vertical-align: center;
   text-align: center;
