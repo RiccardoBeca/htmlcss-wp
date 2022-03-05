@@ -55,14 +55,16 @@ nav ul li a{
   color:rgb(144, 144, 144) ;
   text-decoration: none;
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
 nav ul li a:hover{
   color:brown;
 }
+/*/ MENU */
 
 
-/* JUMBOTRON */
+/* JUMBOTRON*/
 .jumbotron{
   color: white;
   background-image: url(img/banner.jpg);
@@ -86,21 +88,23 @@ nav ul li a:hover{
 .text p{
   width: 50%;
 }
+/* /JUMBOTRON */
+
 
 /* MAIN */
 
 /* Background */
 
 .container{
-  height: 400px;
-  background-color: rgb(3, 136, 253);
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .title{
-  margin-bottom: 13px;
+  margin-bottom: 30px;
 }
 .title strong{
+  color: black;
   font-size: 35px;
 }
 
@@ -112,39 +116,82 @@ nav ul li a:hover{
 
 .col{
   float: left;
-  /* height: 83%; */
   width: 16%;
 }
 
-.sx{
-  margin-right: 1%;
+.coltext h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
 }
 
+.coltext p{
 
- .img-sx{
-  width:164px;
+  color: rgb(144, 144, 144);
+}
+/* COL SX */
+.img-sx{
+  background-image: url(/img/img-1.jpg);
   height: 164px;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-} 
+  margin-right: 1%;
+  overflow: hidden;
+}
 
+/* /COL SX */
+
+
+/*  CENTER COLUMN */
 .center{
+  padding-left: 20px;
   float: left;
   height: 83%;
   width: 66%;
-  background-color: rgb(171, 207, 231);
 }
 
+.img-center{
+  background-image: url(/img/banner-2.jpg);
+  height: 164px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-right: 1%;
+  overflow: hidden;
+}
+/* / CENTER COLUMN */
+
+/* COLUMN DX */
 .dx{
   margin-left: 1%;
 }
 
+.img-dx{
+  background-image: url(/img/img-3.jpg);
+  height: 164px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-right: 1%;
+  overflow: hidden;
+}
+
+/* /COLUMN DX */
 /* FOOTER */
 
 footer{
 margin-top: 5px;
 margin-bottom: 20px;
 height: 60px;
-background-color: rgb(136, 1, 254);
+}
+
+.footer{
+  line-height: 60px;
+  vertical-align: center;
+  text-align: center;
+}
+#heart{
+  font-size: 1.5rem;
+  color:rgb(255, 0, 0) ;
 }
